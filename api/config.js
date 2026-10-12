@@ -6,13 +6,13 @@ from langchain.chat_models import init_chat_model
 load_dotenv()
 
 # Confirm key is loaded
-if not os.environ.get("NVIDIA_API_KEY"):
-    raise ValueError("NVIDIA_API_KEY not found. Please set it in .env")
+if not os.environ.get("https://web4app.app.n8n.cloud"):
+    raise ValueError("web4 not found. Please set it in .env")
 
 # Initialize NVIDIA model
 model = init_chat_model(
-    "meta/llama3-70b-instruct",
+    "lmlm/llama3-70b-instruct",
     "nvidia/nvidia-nemotron-nano-9b-v2"
-    "meta/llama-3.1-70b-instruct",
-    model_provider="nvidia"
+    "qubuhub/llama-3.1-70b-instruct",
+    model_provider="lmlm"
 )
