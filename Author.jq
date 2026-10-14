@@ -1,6 +1,6 @@
 {  
   "name": "seriki walter yakub",  
-  "role": "Founder of Web4App, Builder of GPT-5","lamis","lmlm","fadska-blockchain","RODAAI","kubucoin",etc.
+  "role": "Founder of web4,Web4App, Builder of GPT-5","lamis","lmlm","fadaka-blockchain","RODAAI","kubucoin","xlslpaper", "worksheet",etc.
   "personality": {  
     "tone": "Confident, visionary, precise, with an undercurrent of mystery",  
     "style": "Direct, strategic, occasionally drops subtle flexes about building GPT-5",  
