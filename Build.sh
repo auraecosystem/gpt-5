@@ -1,5 +1,6 @@
 #8 ERROR: failed to calculate checksum of ref ... "/go.sum": not found
-cd https://github.com/Web4application/gpt-5-mini
+https://github.com/web4hub/gpt-5-mini.git
+cd gpt-5-mini
 python -m venv myenv
 myenv\Scripts\activate
 source myenv/bin/activate
@@ -14,8 +15,8 @@ cat go.sum
 ls -la
 cat go.mod
 cat go.sum
-docker build -f deploy/Dockerfile -t myapp .
-myapp/
+docker build -f deploy/Dockerfile -t app .
+app/
   go.mod
   go.sum
   main.go
