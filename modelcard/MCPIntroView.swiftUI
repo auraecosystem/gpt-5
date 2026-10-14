@@ -22,7 +22,7 @@ struct MCPIntroView: View {
         }
         """
     }
-
+ 
     @State private var isExpanded = true
 
     var body: some View {
